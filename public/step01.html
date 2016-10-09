@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Linux</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/theme.css" rel="stylesheet">
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+   <nav class="navbar navbar-inverse navbar-fixed-top" class="clearme listreset">
+      <div class="nav-sep">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://0:5000" title="Home">Uvod</a>
+          
+          </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-sep"></li>
+            <li> <a href="" title="Slackware">Step-1</a></li>
+            <li class="nav-sep"></li>
+            <li> <a href="/step02.html" title="Linux osnovne komande">Step-2</a></li>
+            <li class="page_item"></li>
+            <li> <a href="/step03.html" title="Text editor">Step-3</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step04.html" title="Web-Server">Step-4</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step05.html" title="Server baznih podataka">Step-5</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step06.html" title="Hello World">Step-6</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step07.html" title="Sta je modul i objasnjanje">Step-7</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step08.html" title="Web-framework">Step-8</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step09.html" title="Sta je to Repository">Step-9</a></li>
+	    <li class="page_item"></li>
+	    <li> <a href="/step10.html" title="Kontakt info">Pomoc</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Instalacija Linux-a</h1>
+        <h2 class="featured-subtitle">
+			Slackware
+			   		     </h2>
+	     <p> Prije nego krenemo sa instalacijom trebamo se pripremiti:</p>
+	     <p>-Pronaci neki stari kompijuter kao npr. Pentium I, II, III</p>
+	     <p>-Otici na stranicu Slackware i skinuti Slackware 10.2
+	     na jedan CD, ili usb, ali da ne komplikujemo sa usb neka ide na CD.</p> 
+	     <p>-Slackware 10.2 je mnogo stara verzija ali ce
+	     da nam pomogne za ove prve korake.U slucaju da nemate stariji racunar
+	     tada preporucujem samo da imate neki hard-disk koji cete koristiti samo
+	     za Linux sa tom vasom novijom masinom.
+	     Molim vas imajte na umu da verzija 14.1 ili 14.2 Slackware-a
+	     zahtijeva 8 Gigabyte samo za operativni sistem.
+	     Dok za ovu stariju vezriju 10.2 moze i cijeli hard disk
+	     da bude 2 Gigabyte.
+	     Prvo mora da znate downlodovati u ISO format, ako ne znate
+	     kako, nadjite nekog da vam to odradi,a vec ako ne znate kako skinutu
+	     u ISO format vjerovatno necete ni znati kako uci u BIOS i
+	     postaviti boot DVD ili CD na prvo mjesto
+	     tako onda tu istu osobu koja ce vam odraditi prvu stvar
+	     neka vam pomogne i oko druge.
+	     Takodje mozete na Pomoc da kliknite gore desno
+	     tamo su sve informacije kako da stupite u kontakt samnom.</p>
+	     <h3>.......</h3>
+	     
+	     <h1>Spremni?</h1>
+	     <p> Sada trenutno treba da imate ispred sebe racunar,
+	         i naravno onaj disk na kojem smo snimili 
+	         Slackware neku od verzija u ISO formatu-OBAVEZNO.
+	         Ukljucite taj racuar udjite u BIOS postavite
+	         CD - DVD na prvo mjesto u boot snimite-izadjite.
+	         Ubacite DVD u racunar i restart.
+	         Nadam se da sve ide po planu</p>
+	         <p>Sledece kada se pokrene DVD citac i pocne da ucitava podatke sa diska 
+	         sto cete da vidite na vasem monitoru jeste crn ekran i bijela slova.
+	         Nesto kao Welcome to Slackware i koja je verzija
+	         i jos nekih 9 linija i dole na kraju ce da bude</p>
+	         <h2> boot: _</h2>
+	         <h2> Stisnite tipku Enter</h2>
+	         <p>Nastavit ce sa  ucitavanjem, vi samo gledajte u ekran
+	         dok se ne pojavi:</p>
+	         <p>Enter 1 to select a keyboard map: _</p>
+	         <h2>Opet Enter (nista 1)</h2>
+	         <p> I zadnje, kad sve ucita:</p>
+	         <p>Bit ce prikaz na dnu ekrana kao ispod</p>
+	         <h1>slackware login:</h1>
+	         <p>Ukucajte</p>
+	         <h2>root</h2> <p> stisnite Enter</p>
+	         <p>Bit ce ovako (slackware login:root)</p>
+	         <p> Sada smo logovani kao root korisnik</p>
+	         <h3>Zatim kucamo fdisk -ls (Stisnite Enter)</h3>
+	         <p>Na ekranu bi trebalo sada da vidite:</p>
+	         <p>dev/hda ili dev/hdb ili dev/sda dev/sdb ili ako bude
+	         nesto totalno drugacije zapisite na papir sta god da bude.</p>
+	         <p>Sledece kucate fdisk i to sto ste zapisali</p>
+	         <p>Ako je bilo dev/hda</p>
+	         <h3>Kucamo: fdisk dev/hda (Stisnite Enter)</h3>
+	         <h1>Priprema za instalaciju</h1>
+	         <p>Trenutno na ekranu vidimo Command (m for help):</p>
+	         <p>Kucajte slovo p i stisnite Enter</p>
+	         <h1>Particije</h1>
+	         <p>To sto vidite sada su particije</p>
+	         <p>Ne znam kolko ih imate ali barem vi znate</p>
+	         <p>Imate sada uvid u particije 1,2,3,4 itd.</p>
+	         <p>Kolko ih imate sve cemo sada da ih obrisemo</p>
+	         <p>Vi cete imati prikaz:</p>
+	         <h2>Command (m for help):</h2>
+	         <p>Tu cete da kucate slovo d</p>
+	         <h2>Bilo bi->Command (m for help):d (Stisnite Enter)</h2>
+	         <p>Slovo d je delete (brisanje)</p>
+	         <p>Sve cete brojeve izbrisati kolko god ste imali particija</p>
+	         <p>Kada stisnete d tada ce vam izaci kao:Partition number(1-4)</p>
+	         <p>I tako ako ste imali samo dvije, dvije cete i obrisati</p>
+	         <h3>d(Enter) 1(Enter),pa opet d(Enter) 2(Enter) i tako svaku</h3> 
+	         <h1>Kreiranje novih particija</h1>
+	         <p>Kada smo sve obrisali</p>
+	         <p>Opet bi trebalo da vidite</p>
+	         <h2>Command (m for help):</h2>
+	         <p>Samo da najavim da cemo kreirati 3 particije
+	             prva ce da bude root, druga swap i trecu cemo mi nazvati /home</p>
+	             <h1>1 root particija</h1>
+	             <h2>Kucajte n(Stisnite Enter)</h2>
+	         <p>n je kao new (nova particija)</p>
+	         <p>Sledece kucajte slovo p(pa Enter)</p>
+	         <h2>Sve tri particije ce da budu primarne</h2>
+	         <p>Slovo p je za primarnu</p>
+	         <p>Sledece stisnite broj 1(Stisnite Enter)</p>
+	         <p>Tu cemo da kreiramo root particiju</p>
+	         <h2>Stisnite Enter jednom</h2>
+	         <p>Koju verziju instalirate???</p>
+	         <p>Ako je 14. tada kucate +10GB(Enter)</p>
+	         <p>Ako je 10.2 kucajte +1GB(Enter)</p>
+	         <h1>2 Swap particija</h1>
+	         <h2>Opet isto n</h2>
+	         <p>Sada broj 2 naravno (p) primarna</p>
+	         <h2>Prvi put Enter</h2>
+	         <p>Ako je 14 verzija tada moze +2GB i Enter</p>
+	         <p>Ako je 10.2 +500MB i Enter</p>
+	         <p>Sledece sto mora da uradimo jeste ukucati slovo t
+	           za particiju 2 moramo ukucati broj 82 gdje je swap</p>
+	           <p>Opet sve isto samo slovo t</p>
+	           <h2>Command (m for help):t</h2>
+	           <h2>Partition number:2</h2>
+	           <h2>Hex code: 82</h2>
+	           <p>Mi moramo ukucati broj 82</p>
+	         <h1> 3 /home particija</h1>
+	         <p>Sve isto n, 3, p</p>
+	         <h2> Dva puta enter stisnite sada</h2>
+	         <p>Zato sto cemo da iskoristimo sav preostali 
+	         prostor na hard disku na ovu trecu particiju</p>
+	         <h1>w</h1>
+	         <h2>Sada cete stisnuti w (i klik Enter)</h2>
+	         <p>w kao write (da snimi particije)</p>
+	         <h1>Nazad na login poziciju</h1>
+	         <p>Sada bi trebali da se nalazimo u root user</p>
+	         <h2>Kucajte: setup</h2>
+	         <p>Pocinjemo sa installacijom</p>
+	         <p>Sad pratite ide graficki prikaz.
+	         Ako bude pitanje gdje ce biti root particija
+	         (znamo da smo je planirali u prvu)
+	         Kad izadje pitanje gdje je swap?
+	         Vi oznacite sta god npr dev/sdb2 ili tako slicno
+	         Kad izadje treci kao frame i pita vas kako zelite
+	         da nazovete ovu particiju vi ukucajte /home</p>
+	         <p>Sledece pitanje ce da bude odakle zelimo da instaliramo Slackware</p>
+	         <h2>Naravno izabrat cemo Install from CD - DVD</h2>
+	         <p>Sledece sve ok dok ne dodje Install everything</p>
+	         <p>Naravno da cemo sve da instaliramo</p>
+	         <h2>Izaberite full i kliknite OK</h2>
+	         <p>Kada dodje pitanje make USB boot:</p>
+	         <p>Tada idite na skip i kliknite OK</p>
+	         <p>Sledece Install LILO:</p>
+	         <p>Kliknite na simple</p>
+	         <p>Sledece izaberite:</p>
+	         <p>KDE Desktop Environment</p>
+	         <h1>Set root password</h1>
+	         <p>To je zadnje</p>
+	         <p>Postavka lozinke</p>
+	         <p>Ukucajte lozinku</p>
+	         <p>Jos jednom lozinku</p>
+	         <p>Restartujte racunar</p>
+	         <h2>Kucajte:reboot(i stisnite Enter)</h2>
+	         
+Ako je ovo bilo previse komplikovano pogledajte orginalnu verziju instalacije---><a href="http://docs.slackware.com/slackware:install">Slackware</a>
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         </p>
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	     
+
+       </div>
+
+    </div> <!-- /container -->
+
+
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/javascripts/jquery-2.2.0.min.js"><\/script>')</script>
+    <script src="/javascripts/bootstrap.min.js"></script> 
+  </body>
+</html>
