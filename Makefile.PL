@@ -8,9 +8,9 @@ my $eumm_version = $ExtUtils::MakeMaker::VERSION;
 $eumm_version =~ s/_//;
 
 WriteMakefile(
-    NAME                => 'Todo',
-    AUTHOR              => q{Edin <edin76@bih.net.ba>},
-    VERSION_FROM        => 'lib/Todo.pm',
+    NAME                => 'Ba',
+    AUTHOR              => q{ <>},
+    VERSION_FROM        => 'lib/Ba.pm',
     ABSTRACT            => 'ABSTRACT',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
@@ -22,5 +22,5 @@ WriteMakefile(
         'Dancer2'     => 0.166001,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean               => { FILES => 'Todo-*' },
+    clean               => { FILES => 'Ba-*' },
 );

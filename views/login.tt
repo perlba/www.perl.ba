@@ -1,0 +1,27 @@
+
+    
+    <h2>Login</h2>
+
+<% IF request.query_parameters.get('failure') %>
+    <h3 style="color: red;">Strogo povjerljivo!!!</h3>
+    <address>Pokusajte ponovo</address>
+    <br><br>
+<% END %>
+
+<form method="post" action="/login">
+<table>
+    <tr>
+        <td>Ime</td>
+        <td><input type="text" size="20" name="user"/></td>
+    </tr>
+    <tr>
+        <td>Lozinka</td>
+        <td><input type="password" name="pass"/></td>
+    </tr>
+</table>
+
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type='hidden' name='path' value='<% requested_path %>'/>
+<input type="submit" name="submit" value="Login"/>
+</form>

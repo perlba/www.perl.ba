@@ -1,4 +1,10 @@
 requires "Dancer2" => "0.166001";
+requires 'Template';
+requires 'Crypt::Eksblowfish::Bcrypt';
+requires 'MIME::Base64';
+requires 'MooX::Types::MooseLike::Base';
+requires 'KiokuDB';
+requires 'KiokuDB::Backend::Files';
 
 recommends "YAML"             => "0";
 recommends "URL::Encode::XS"  => "0";

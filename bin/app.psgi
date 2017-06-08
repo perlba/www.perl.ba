@@ -5,6 +5,6 @@ use warnings;
 use FindBin;
 use lib "$FindBin::Bin/../lib";
 
-use Todo;
-Todo->to_app;
+use Ba;
+Ba->to_app;
 

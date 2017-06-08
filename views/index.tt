@@ -1,22 +1,41 @@
+<h1> DOBRO DOSLI</h1>
+
+
 <div id="page">
+<div id ="sidebar">
+<ul id="sidebar-items">  
+
+
      
         
          
-              <h3>Uvod</h3>
+              <h3>To je to</h3>
              
 
               <li>Instalacija Linux-a<a href="/step01.html"> Step-1</a></li>
+              
               <li>Osnovne komande<a href="/step02.html"> Step-2</a></li>
               <li>VIM Editor-osnovne komande<a href="/step03.html"> Step-3</a></li>
               <li>Sta je Apache?<a href="/step04.html"> Step-4</a></li>
               <li>Sta je MySQL?<a href="/step05.html"> Step-5</a></li>
               <li>Learning Perl<a href="/step06.html"> Step-6</a></li>
-              <li>MCPAN<a href="/step07.html"> Step-7</a></li>
+              <li>CPAN<a href="/step07.html"> Step-7</a></li>
               <li>Dancer2<a href="/step08.html"> Step-8</a></li>
               <li>GitHub<a href="/step09.html"> Step-9</a></li>
-              <li>Author info<a href="/step10.html"> Step-10</a></li>
-           
-         
+              
        
 
-      </div>
+     
+   
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  

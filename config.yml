@@ -3,7 +3,7 @@
 # all the settings in this file will be loaded at Dancer's startup.
 
 # Your application's name
-appname: "Todo"
+appname: "Ba"
 
 # The default layout to use for your application (located in
 # views/layouts/main.tt)
@@ -44,9 +44,26 @@ engines:
 #    Simple:
 #      cookie_name: testapp.session
 #
-#engines:
-#  session:
-#    YAML:
-#      cookie_name: eshop.session
-#      is_secure: 1
-#      is_http_only: 1
+#session: "YAML"
+#    engines:
+#      session:
+#       YAML:
+#         session_dir: "/tmp/dancer-sessions"
+#         cookie_duration: 3600    # Default cookie timeout in seconds
+
+#plugins:
+#    Auth::Extensible:
+#     realms:
+#        config:
+#          provider: Config
+#            users:
+#              - user: bosna
+#                   pass: tr0n
+#                       - user: edin
+#                           pass: '{SSHA}+2u1HpOU7ak6iBR6JlpICpAUvSpA/zBM'
+                                 
+
+
+
+
+
